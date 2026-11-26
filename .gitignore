@@ -1,0 +1,26 @@
+# Flutter / Dart build artifacts
+**/build/
+**/.dart_tool/
+**/.pub/
+**/.pub-cache/
+**/.flutter-plugins-dependencies
+
+# IDE & OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+*.log
+
+# Android & iOS
+**/.gradle/
+**/local.properties
+**/GeneratedPluginRegistrant.java
+**/Pods/
+**/.symlinks/
+
+# Python cache / temporary test files
+__pycache__/
+*.py[cod]
+test_screen.png
