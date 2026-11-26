@@ -37,17 +37,23 @@ Inovasi ini dirancang berdasarkan masalah nyata di lingkungan kampus, terutama k
 
 ---
 
-## 📸 Tangkapan Layar (Screenshots)
+## 📸 Tangkapan Layar (Screenshots Bukti Tugas)
 
-> Simpan file gambar tangkapan layar Anda di dalam folder `screenshots/` dengan nama file di bawah ini.
-
-| 1. Form & Validasi Error | 2. Laporan Berhasil Terkirim |
+| Gambar 9. Dialog PopScope Saat Menekan Kembali | Gambar 10. Server Menyimpan Nomor HP (Angka Saja) |
 | :---: | :---: |
-| ![Validasi Form](screenshots/01_validasi_error.png)<br>*(Kolom nama/lokasi kosong atau nomor HP bukan 08)* | ![Laporan Terkirim](screenshots/02_laporan_terkirim.png)<br>*(Snackbar konfirmasi pengiriman laporan ber-ID)* |
+| <img src="screenshots/gambar_09_dialog_konfirmasi_keluar.png" width="300"/><br>*(Dialog konfirmasi simpan draf saat isian belum dikirim)* | <img src="screenshots/gambar_10_server_simpan_angka_saja.png" width="480"/><br>*(Verifikasi normalisasi kontak di backend & `data/barang.json`)* |
 
-| 3. Badge Draf & Daftar Draf | 4. Log Server (POST 201 & 400) |
+| Gambar 11. Form Terisi Lengkap Siap Kirim | Gambar 12. Laporan Muncul di Beranda |
 | :---: | :---: |
-| ![Daftar Draf](screenshots/03_draf_badge.png)<br>*(Badge jumlah draf pada AppBar dan modal draf)* | ![Log Server](screenshots/04_log_server.png)<br>*(Potongan log terminal server POST 201 & 400)* |
+| <img src="screenshots/gambar_11_form_terisi_siap_kirim.png" width="300"/><br>*(Form terisi lengkap dengan nomor HP & tombol kirim)* | <img src="screenshots/gambar_12_laporan_tampil_di_beranda.png" width="300"/><br>*(Laporan baru tersimpan di server & tampil di beranda)* |
+
+| SS-13. Hasil Keluaran Terminal `flutter test` (17 Test Lulus) |
+| :---: |
+| <img src="screenshots/ss_13_flutter_test_lulus.png" width="620"/><br>*(Seluruh 17 pengujian widget test dinyatakan lulus sempurna)* |
+
+| Bukti Tambahan: Validasi Error Form | Bukti Tambahan: Badge Draf (Angka 2) & Bottom Sheet |
+| :---: | :---: |
+| <img src="screenshots/01_validasi_error.png" width="300"/><br>*(Validasi error nama, lokasi, & kontak)* | <img src="screenshots/03_draf_badge.png" width="300"/><br>*(Badge draf angka 2 di AppBar & bottom sheet draf)* |
 
 ---
 
